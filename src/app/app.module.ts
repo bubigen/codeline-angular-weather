@@ -12,13 +12,15 @@ import { DefaultLayoutComponent } from './layouts/default/default.component';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { WeatherComponent } from './widgets/weather/weather.component';
+import { WeatherSearchComponent } from './widgets/weather-search/weather-search.component';
+import { WeatherDetailComponent } from './pages/weather-detail/weather-detail.component';
+import { SearchResultsComponent } from './pages/search-results/search-results.component';
 
 // Services
 import { WeatherService } from './services/weather.service';
 
 // Pipes
 import { KeyIterablePipe } from './pipes/key_iterable.pipe';
-import { WeatherDetailComponent } from './pages/weather-detail/weather-detail.component';
 
 @NgModule({
   declarations: [
@@ -29,11 +31,12 @@ import { WeatherDetailComponent } from './pages/weather-detail/weather-detail.co
     AppComponent,
     HomePageComponent,
     WeatherComponent,
+    WeatherDetailComponent,
+    WeatherSearchComponent,
+    SearchResultsComponent,
 
     // Pipes
     KeyIterablePipe,
-
-    WeatherDetailComponent
   ],
   imports: [
     BrowserModule,

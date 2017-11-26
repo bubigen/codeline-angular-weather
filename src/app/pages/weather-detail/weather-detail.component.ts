@@ -3,9 +3,9 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { WeatherService } from '../../services/weather.service';
 
 @Component({
-  selector: 'app-weather-detail',
-  templateUrl: './weather-detail.component.html',
-  styleUrls: ['./weather-detail.component.css']
+	selector: 'app-weather-detail',
+	templateUrl: './weather-detail.component.html',
+	styleUrls: ['./weather-detail.component.css']
 })
 export class WeatherDetailComponent implements OnInit {
 

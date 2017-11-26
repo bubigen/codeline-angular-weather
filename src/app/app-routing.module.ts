@@ -4,12 +4,17 @@ import { RouterModule, Routes }         from '@angular/router';
 import { DefaultLayoutComponent }       from './layouts/default/default.component';
 import { HomePageComponent }            from './pages/home-page/home-page.component';
 import { WeatherDetailComponent }       from './pages/weather-detail/weather-detail.component';
+import { SearchResultsComponent }      from './pages/search-results/search-results.component';
 
 const defaultRoutes: Routes = [
   { path: '', component: HomePageComponent, },
   {
     path: 'weather/:woeid',
     component: WeatherDetailComponent,
+  },
+  {
+    path: 'search/:keyword',
+    component: SearchResultsComponent,
   },
 ];
 

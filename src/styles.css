@@ -209,3 +209,23 @@ h1 {
     padding: 3em 0;
 }
 }
+.no-results {
+	padding: 15px;
+}
+.search-form-wrap {
+	margin: 15px 0;
+	text-align: center;
+}
+.search-form-wrap input {
+	padding: 4px;
+}
+.search-form-wrap button {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
